@@ -1,0 +1,157 @@
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hannie's Cozy Corner</title>
+
+        <link rel="stylesheet" href="style.css">
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+        <link rel="icon" type="image/png" href="images/favcon.jpg">
+    </head>
+
+    <body>
+
+    <header class="navbar">
+        <div class="logo">Hannie's Cozy Corner</div>
+
+        <nav>
+            <a href="#hero">Home</a>
+            <a href="#gallery">Space</a>
+            <a href="#moments">Moments</a>
+            <a href="#booking">Stay</a>
+            <a href="#footer">Contact</a>
+        </nav>
+
+        <button class="btn btn-dark" id="navInquire">Inquire</button>   
+    </header>
+
+    <!-- HERO -->
+    <section id="hero" class="hero">
+        <div class="overlay"></div>
+
+        <div class="hero-content">
+            <p class="subtitle">A PRIVATE COZY ESCAPE</p>
+
+            <h1>Slow living in a <span>quiet corner</span> of the city</h1>
+
+            <p class="description">
+                A thoughtfully designed space for rest, stillness, and soft city views.
+            </p>
+
+            <div class="hero-buttons">
+                <button class="btn btn-dark" id="inquireBtn">Inquire Stay</button>
+                <button class="btn btn-light" id="viewBtn">View Space</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- MOMENTS -->
+    <section id="moments" class="moments">
+        <div class="moment reveal">
+            <h3>Morning Light</h3>
+            <p>Soft sunlight fills the space as the city slowly wakes.</p>
+        </div>
+
+        <div class="moment reveal">
+            <h3>Quiet Evenings</h3>
+            <p>A peaceful retreat above the noise of the city.</p>
+        </div>
+
+        <div class="moment reveal">
+            <h3>Private Comfort</h3>
+            <p>Designed for rest, calm, and intentional living.</p>
+        </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section id="gallery" class="gallery">
+        <div class="section-title">
+            <p>THE SPACE</p>
+            <h2>A glimpse inside</h2>
+        </div>
+
+        <div class="gallery-grid">
+            <div class="gallery-item reveal"><img src="images/pic1.jpg"></div>
+            <div class="gallery-item reveal"><img src="images/pic2.jpg"></div>
+            <div class="gallery-item reveal"><img src="images/pic3.jpg"></div>
+            <div class="gallery-item reveal"><img src="images/pic4.jpg"></div>
+            <div class="gallery-item reveal"><img src="images/pic5.jpg"></div>
+        </div>
+    </section>
+
+  <!-- BOOKING / INQUIRE -->
+<section id="booking" class="booking">
+
+    <div class="booking-container">
+
+        <div class="booking-info reveal">
+            <h2>Experience Cozy Living</h2>
+
+            <p>
+                Hannie’s Cozy Corner is a peaceful condo staycation designed
+                for rest, slow mornings, and quiet evenings above the city.
+            </p>
+
+            <p>
+                Perfect for couples, solo escapes, study stays, and intimate
+                staycations with a warm minimalist atmosphere.
+            </p>
+
+            <button class="btn btn-dark" id="messageBtn">
+                Send Inquiry
+            </button>
+        </div>
+
+        <div class="booking-image reveal">
+            <img src="images/pic3.jpg" alt="Cozy Condo">
+        </div>
+
+    </div>
+
+</section>
+    <!-- FOOTER -->
+    <footer id="footer">
+        <h3>Hannie's Cozy Corner</h3>
+        <p>A quiet stay above the city.</p>
+
+        <div class="socials">
+            <i class="ri-facebook-fill"></i>
+            <i class="ri-instagram-line"></i>
+            <i class="ri-messenger-line"></i>
+        </div>
+    </footer>
+
+    <!-- LIGHTBOX (must be BEFORE scripts) -->
+    <div class="lightbox" id="lightbox">
+        <span class="close">&times;</span>
+        <img class="lightbox-img" id="lightboxImg">
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script src="script.js"></script>
+
+    <!-- SOCIAL MODAL -->
+    <div class="social-modal" id="socialModal">
+        <div class="social-box">
+            <span class="close" id="socialClose">&times;</span>
+
+            <h3>Follow Us</h3>
+
+            <a href="https://facebook.com" target="_blank">
+                <i class="ri-facebook-fill"></i> Hannah Mae
+            </a>
+
+            <a href="https://instagram.com" target="_blank">
+                <i class="ri-instagram-line"></i> Hannah Mae
+            </a>
+
+            <a href="https://messenger.com" target="_blank">
+                <i class="ri-messenger-line"></i> Hannah Mae
+            </a>
+        </div>
+    </div>
+    </body>
+    </html>
